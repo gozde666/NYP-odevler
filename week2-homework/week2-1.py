@@ -1,3 +1,5 @@
 kenar = int(input("Karenin kenar uzunluğunu giriniz."))
-print("Karenin alanı=", kenar * kenar)
-print("Karenin çevresi=", 4 * kenar)
+alan = kenar**2
+çevre = kenar*4
+print("Karenin alanı:", alan)
+print("Karenin çevresi:", çevre)
